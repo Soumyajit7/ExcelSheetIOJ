@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'com.github.jitpack'
-version = '2.1'
+version = '1.0'
 
 repositories {
     mavenCentral()
@@ -23,7 +23,7 @@ publishing {
     repositories {
         maven {
             name = "ExcelSheetIO"
-            url = "https://maven.pkg.github.com/devopshint/ExcelSheetIOJ"
+            url = "https://maven.pkg.github.com/Soumyajit7/ExcelSheetIOJ"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
