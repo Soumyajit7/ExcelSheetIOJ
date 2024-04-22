@@ -22,7 +22,7 @@ publishing {
     repositories {
         maven {
             name = "ExcelSheetIO"
-            url = "https://maven.pkg.github.com/devopshint/excelsheetioj"
+            url = "https://maven.pkg.github.com/devopshint/ExcelSheetIOJ"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
